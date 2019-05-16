@@ -1,0 +1,1 @@
+[{"model": "core.usercontact", "pk": 1, "fields": {"created": "2019-05-14T14:07:14.435Z", "updated": "2019-05-14T14:07:14.435Z", "user": 4, "kind": "TMOB", "value": "380501121111"}}, {"model": "core.usercontact", "pk": 2, "fields": {"created": "2019-05-14T14:07:24.407Z", "updated": "2019-05-14T14:07:24.407Z", "user": 5, "kind": "EML", "value": "guest2@gmal.com"}}]
