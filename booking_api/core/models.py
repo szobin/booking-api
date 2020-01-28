@@ -49,7 +49,7 @@ class Booking(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     started = models.DateField()
     finished = models.DateField()
-    property = models.ForeignKey(Property, on_delete=models.CASCADE)
+    property = models.ForeignKey(Property, related_name='property', on_delete=models.CASCADE)
     guest = models.ForeignKey(User, on_delete=models.CASCADE)
     canceled = models.BooleanField(default=False)
     info2owner = models.TextField()
